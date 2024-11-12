@@ -1,0 +1,30 @@
+.shppingList {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.table-style {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.c-white{
+    color: white;
+}

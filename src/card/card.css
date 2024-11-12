@@ -1,0 +1,103 @@
+.card{
+    width:9rem;
+    /* height: 11.5rem;  */
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    /* box-shadow: 0 4pxbo 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 4px 8px 8px 8px rgba(0,0,0,0.2) ;
+}
+/* .card p{
+   margin-bottom: .5rem ;
+   margin-top: .5rem ;
+   font-size: 0.7rem;
+   color: white;
+   font-weight: bold;
+   background-color: purple;
+
+}
+ */
+ .left-butt{
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #f89418;
+
+ }
+ .right-butt{
+    font-size: 0.7rem;
+    background-color: #5c3890;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+ }
+.card-img{
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+.card-button{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+}
+.card-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.name{
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+ font-weight:bold;
+ margin-top:.5rem
+}
+.input-style{
+    width: 1rem;
+    border: none;
+}
+.mod-quant{
+    width: 100%;
+    /* height: 3.5rem; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.rect-button{
+    /* width:0.5rem;
+    height:0.5rem; */
+    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    background-color: #f89418;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    
+   
+}
+.total{
+    padding: 0.5rem 0.5rem;
+    background-color: #f89418;
+    border-radius: 0.5rem;
+   
+    
+}
+.purle{
+    background-color: #5c3890;
+}
+.active{
+    background-color: #fa9416 ;
+ /* background-color: #5c3890; */
+    /* padding-left:.5rem */
+}
+.white{
+    background-color: #5c3890 ;
+    /* color: gray; */
+
+}

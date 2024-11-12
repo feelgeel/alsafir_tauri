@@ -1,0 +1,50 @@
+.btn-padding{
+  padding: 1rem ;
+}
+.dec{
+background-color: orange;
+padding: .5rem;
+border-radius: .2rem;
+cursor:pointer;
+}
+
+
+.inc{
+  background-color: orange;
+  padding: .5rem;
+  border-radius: .2rem;
+  cursor:pointer;
+}
+
+.inc-active{
+  background-color: #5c3890;
+}
+.quant-manager{
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem .5rem; */
+}
+.delete{
+  /* padding: .5rem .5rem; */
+  display: flex;
+  background-color: #f89418;
+  justify-content:center;
+  align-items:center;
+  /* height:100%; */
+  /* margin-right: 0.5rem; */
+}
+.btn-delete{
+  padding: 0.3rem 0rem;
+  font-weight: bold;
+  font-size: 1rem;
+  /* background-color: #5c3890; */
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin: 0;
+  color: white;
+}
+.dec-active{
+  background-color: #5c3890;
+  }

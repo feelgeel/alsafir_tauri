@@ -1,0 +1,95 @@
+
+.btn{
+    position: relative;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        padding: 1.5rem 4rem;
+    }
+    &:hover{
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    }
+    &:active{
+        transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    }
+    &-white{
+        background-color:$color-white;
+        color: $color-grey-dark;
+    }
+    &::after{
+        content:"";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: -1;
+        transition: all .4s;
+    }
+    &:hover::after{
+        transform: scaleX(1.5)scaleY(1.4);
+        opacity: 0;
+    }
+    &-white::after{
+        background-color: #fff;
+    }
+    &-text{
+        &:link,
+        &:visited{
+            color: $color-primary;
+            display: inline-block;
+            text-decoration: none;
+            // font-size: 1.6rem;
+            border-bottom: 1px solid $color-primary;
+            // text-transform: uppercase;
+            padding-bottom: 3px ;
+        }
+        &:hover{
+            background-color: $color-primary;
+            color: white;
+            transform: translateY(-0.3rem);
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        &:active{
+            transform: translateY(-.1rem);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+        }
+    }
+    &-green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
+}
+// .btn:hover{
+//     transform: translateY(-3px);
+//     box-shadow: 0 10px 20px rgba(0,0,0,.2);
+// }
+// .btn:active{
+//     transform: translateY(-1px);
+//     box-shadow: 0 5px 10px rgba(0,0,0,.2);
+// }
+// .btn-white{
+   
+// }
+// .btn:after{
+
+
+// }
+// .btn:hover::after{
+//   transform: scale(2);
+
+// }

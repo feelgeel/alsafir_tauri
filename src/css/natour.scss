@@ -1,0 +1,17 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+@import "./animation.scss";
+@import "./base.scss";
+
+
+@import "./typography.scss";
+@import "../component/card/card.scss";
+@import "../sales/sales.scss";
+@import "../productsList//productList.scss";
+@import "../addProducts/addproducts.scss";
+@import "../chosenproducts//chosenProducts.scss";
+@import "../popups//popups.scss";
+@import "..//manageSales/updateSales.scss";
+@import "..//manageSales/deleteSales.scss";
+@import "..//manageSales/addsales.scss";
+@import "../component//card/newCard.scss";

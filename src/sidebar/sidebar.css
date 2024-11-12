@@ -1,0 +1,49 @@
+.sidebar {
+  /* background-color: #8AAAE5; */
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* position: fixed; */
+  justify-content: space-between;
+  /* background-image: url("../../bakery2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.first {
+  height: 20%;
+  margin: 5px;
+  background-color: white;
+}
+.second {
+  height: 30%;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5%;
+}
+.third {
+  padding-top: 30px;
+  height: 60%;
+  margin: 20px;
+  /* background-color: white; */
+  border-radius: 5%;
+}
+.listItem {
+  list-style: none;
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.active {
+  background-color: pink;
+}
+.listItem:hover {
+  /* background-color: pink; */
+  /* border-radius: 50; */
+}
+.list {
+  margin: 0;
+  padding: 0;
+}

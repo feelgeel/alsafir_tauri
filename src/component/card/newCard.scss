@@ -1,0 +1,17 @@
+.newCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:10rem;
+    // height: 23rem;
+    margin: 0.5rem;
+    background-color: white;
+}
+.imgCard{
+    width:10rem;
+    height: 10rem;
+    
+}
+.infoCard{
+text-align: center;
+}

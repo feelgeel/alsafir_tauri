@@ -1,0 +1,117 @@
+.sales{
+    display: flex;
+    height: 89%;
+    background-color: #e8e2e2;
+
+}
+.left{
+    width: 65%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.right{
+    width: 35%;
+    height:85%;
+    position: fixed;
+    right: 0;
+    /* height: 100vh; */
+    margin: 0rem 0.5rem .5rem 0.5rem;
+    padding:.5rem .5rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 0.3rem 0rem ;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #5c3890;
+    border-radius: .2rem;
+    cursor: pointer;
+    margin:0;
+    color:white;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+.total-price{
+    /* width: 100%; */
+    background-color: #5c3890;
+    padding: 1rem 0.5rem;
+    border-radius: .5rem;
+    margin:0;
+    text-align: left;
+    font-size:1.5rem;
+    font-weight:600;
+    color:white
+}
+.down-left{
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem 0rem;
+}
+.payment{
+    background-color: #f89418;
+    padding: 1rem 2rem;
+    border-radius: .5rem .5rem;
+    /* 
+     */
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    font-weight:700;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#5c3890;
+    cursor:pointer;
+   
+}
+.waitlist{
+    background-color: #e8e2e2;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    /* 
+    font-size: 1rem; 
+    */
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    margin-left: .5rem;
+    color:#5c3890;
+    font-weight:700;
+    cursor:pointer;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+.clicked{
+    box-shadow: inset 1px 2px 5px #777;
+  transform: translateY(1px);
+}
+.quantity{
+    margin: 0;
+     /* height: 4.5rem; */
+    color:#777;
+    padding-bottom:1rem;
+    text-align:left
+    
+}
+.up{
+    width: 100%;
+    height: 65%;
+}
+.up-left{
+   display: flex;
+    margin-left:.5rem
+}
+.down-right{
+    width: 100%;
+}
