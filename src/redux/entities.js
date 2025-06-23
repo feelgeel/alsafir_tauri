@@ -1,57 +1,68 @@
-import { combineReducers } from "redux";
-import breadReducer from './reduxSlice/bread';
-import patisserieReducer from './reduxSlice/patisserie';
-import chosenProdReducer from './reduxSlice/chosenProd';
-import chosenProductsReducer from './reduxSlice/chosenProducts';
-import salesReducer from './reduxSlice/sales';
-import returnsReducer from './reduxSlice/returns';
-import returnsListReducer from './reduxSlice/returnsList';
-import salesListReducer from './reduxSlice/salesList';
-import chosenSalesProdsReducer from './reduxSlice/chosenSalesProds';
-import historyReducer from './reduxSlice/history';
-import purchasDbReducer from './reduxSlice/purchaseDb';
-import purchasReducer from './reduxSlice/purchases';
-import purchasesListReducer from './reduxSlice/purchaseList';
-import chosenPurchaseReducer from './reduxSlice/chosenPurchasProds';
-import waitReducer from './reduxSlice/wait';
-import waitListReducer from './reduxSlice/waitList';
-import IngReducer from './reduxSlice/ingredient';
-import chosenpurchasereducer from './reduxSlice/chosenPurchase';
-import chosenreducer from './reduxSlice/chosen';
-import smidreducer from './reduxSlice/smid';
-import farinareducer from './reduxSlice/farine';
-import eggsreducer from './reduxSlice/eggs';
-import margarinereducer from './reduxSlice/margarine';
-import zebdareducer from './reduxSlice/zebda';
-import navActivereducer from './reduxSlice/navActive';
-import classActiveReducer from './reduxSlice/classActive';
-
+import { combineReducers } from "@reduxjs/toolkit";
+import breadReducer from "./reduxSlice/bread";
+import breadStockReducer from "./reduxSlice/breadStock";
+import chosenReducer from "./reduxSlice/chosen";
+import chosenProdReducer from "./reduxSlice/chosenProd";
+import chosenProductsReducer from "./reduxSlice/chosenProducts";
+import chosenPurchasProdsReducer from "./reduxSlice/chosenPurchasProds";
+import chosenPurchaseReducer from "./reduxSlice/chosenPurchase";
+import chosenReturnsProdsReducer from "./reduxSlice/chosenReturnsProds";
+import chosenSalesProdsReducer from "./reduxSlice/chosenSalesProds";
+import classActiveReducer from "./reduxSlice/classActive";
+import eggsReducer from "./reduxSlice/eggs";
+import farineReducer from "./reduxSlice/farine";
+import historyReducer from "./reduxSlice/history";
+import ingredientReducer from "./reduxSlice/ingredient";
+import margarineReducer from "./reduxSlice/margarine";
+import navActiveReducer from "./reduxSlice/navActive";
+import patisserieReducer from "./reduxSlice/patisserie";
+import patisserieStockReducer from "./reduxSlice/patisserieStock";
+import prodPriceReducer from "./reduxSlice/prodPrice";
+import purchaseDbReducer from "./reduxSlice/purchaseDb";
+import purchaseListReducer from "./reduxSlice/purchaseList";
+import purchaseStockReducer from "./reduxSlice/purchaseStock";
+import purchasesReducer from "./reduxSlice/purchases";
+import returnsReducer from "./reduxSlice/returns";
+import returnsListReducer from "./reduxSlice/returnsList";
+import salesReducer from "./reduxSlice/sales";
+import salesListReducer from "./reduxSlice/salesList";
+import smidReducer from "./reduxSlice/smid";
+import waitReducer from "./reduxSlice/wait";
+import waitListReducer from "./reduxSlice/waitList";
+import zebdaReducer from "./reduxSlice/zebda";
+import debugReducer from "./reduxSlice/debug";
 
 export default combineReducers({
-bread:breadReducer,
-patisserie:patisserieReducer,
-chosenProd:chosenProdReducer,
-chosenProducts:chosenProductsReducer,
-sales:salesReducer,
-salesList:salesListReducer,
-chosenSalesProds:chosenSalesProdsReducer,
-returns:returnsReducer,
-returnsList:returnsListReducer,
-history:historyReducer,
-purchases:purchasReducer,
-purchaseDb:purchasDbReducer,
-purchasesList:purchasesListReducer,
-chosenPurchaseProds:chosenPurchaseReducer,
-wait:waitReducer,
-waitList:waitListReducer,
-ingredient:IngReducer,
-chosenPurchase:chosenpurchasereducer,
-chosen:chosenreducer,
-smid:smidreducer,
-farine:farinareducer,
-eggs:eggsreducer,
-margarine:margarinereducer,
-zebda:zebdareducer,
-navActive:navActivereducer,
-classActive:classActiveReducer
-})
+  bread: breadReducer,
+  breadStock: breadStockReducer,
+  chosen: chosenReducer,
+  chosenProd: chosenProdReducer,
+  chosenProducts: chosenProductsReducer,
+  chosenPurchasProds: chosenPurchasProdsReducer,
+  chosenPurchase: chosenPurchaseReducer,
+  chosenReturnsProds: chosenReturnsProdsReducer,
+  chosenSalesProds: chosenSalesProdsReducer,
+  classActive: classActiveReducer,
+  eggs: eggsReducer,
+  farine: farineReducer,
+  history: historyReducer,
+  ingredient: ingredientReducer,
+  margarine: margarineReducer,
+  navActive: navActiveReducer,
+  patisserie: patisserieReducer,
+  patisserieStock: patisserieStockReducer,
+  prodPrice: prodPriceReducer,
+  purchaseDb: purchaseDbReducer,
+  purchaseList: purchaseListReducer,
+  purchaseStock: purchaseStockReducer,
+  purchases: purchasesReducer,
+  returns: returnsReducer,
+  returnsList: returnsListReducer,
+  sales: salesReducer,
+  salesList: salesListReducer,
+  smid: smidReducer,
+  wait: waitReducer,
+  waitList: waitListReducer,
+  zebda: zebdaReducer,
+  debug: debugReducer,
+});
